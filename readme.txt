@@ -32,6 +32,7 @@ The system is creating output in two various formats - "DuplicateFinder_results"
 Both of these output formats are saved into .xlsx and .csv files for user to choose.
 
 ----------------------------------------------------------------------------------
-Made as a thesis project by bc. Michael Švejcar,
-Brno University of Technology, Faculty of Electrical Engineering and Communication,
+Made as a thesis project by Bc. Michael Švejcar,
+Brno University of Technology, 
+Faculty of Electrical Engineering and Communication,
 2022
