@@ -18,15 +18,20 @@ The easiest way to run the system is to set the input parameters in "config.ini"
 ## HOW TO USE (in a way so that individual parameters can be set manually)
 If you want to fine-tune the system input parameters, you can use one of the functions below. All of these functions are in the duplicate_finder.py file, with their description and parameters documentation:
 
-find_duplicates(path, outputpath, accuracy, chroma_method)
-find_duplicates_dtw(path, outputpath, chroma_method, dtwtype, dtwarea, verify_extremes, testpointsnum, diffpointstolerance, segmentdivider)
-find_duplicates_img_hashing(path, outputpath, chroma_method, hashdiff_tresh)
-find_duplicates_combined(path, outputpath, chroma_method, hashdiff_tresh, dtwtype, dtwarea, verify_extremes, testpointsnum, diffpointstolerance, segmentdivider)
-is_chroma_duplicate(chroma1, chroma2, dtwtype, dtwarea, verify_extremes, testpointsnum, diffpointstolerance, segmentdivider, showplot)
-is_duplicate(audiofile1_name, audiofile2_name, chroma_method, dtwtype, dtwarea, verify_extremes, testpointsnum, diffpointstolerance, segmentdivider, showplot)
+**find_duplicates**(path, outputpath, accuracy, chroma_method)
+
+**find_duplicates_dtw**(path, outputpath, chroma_method, dtwtype, dtwarea, verify_extremes, testpointsnum, diffpointstolerance, segmentdivider)
+
+**find_duplicates_img_hashing**(path, outputpath, chroma_method, hashdiff_tresh)
+
+**find_duplicates_combined**(path, outputpath, chroma_method, hashdiff_tresh, dtwtype, dtwarea, verify_extremes, testpointsnum, diffpointstolerance, segmentdivider)
+
+**is_chroma_duplicate**(chroma1, chroma2, dtwtype, dtwarea, verify_extremes, testpointsnum, diffpointstolerance, segmentdivider, showplot)
+
+**is_duplicate**(audiofile1_name, audiofile2_name, chroma_method, dtwtype, dtwarea, verify_extremes, testpointsnum, diffpointstolerance, segmentdivider, showplot)
 
 
------------------------- OUTPUT OF THE SYSTEM ------------------------------------
+## OUTPUT OF THE SYSTEM
 After finishing the calculation, the results can be found under the set outputpath directory (or in a DuplicateFinder folder under input path directory, if outputpath has not been set).
 The system is creating output in two various formats - "DuplicateFinder_results", containing detailed information about every tested audio file, and "DuplicateFinder_results_duplicates_only", in which only duplicate pairs are recorded.
 Both of these output formats are saved into .xlsx and .csv files for user to choose.
