@@ -38,5 +38,6 @@ Both of these output formats are saved into .xlsx and .csv files for user to cho
 
 ----------------------------------------------------------------------------------
 Made as a thesis project by bc. Michael Švejcar,
-Brno University of Technology, Faculty of Electrical Engineering and Communication,
+Brno University of Technology, 
+Faculty of Electrical Engineering and Communication,
 2022
