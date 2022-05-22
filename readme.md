@@ -1,4 +1,4 @@
-# DuplicateFinder
+# Duplicate Finder
 This project is a system designed for recognising duplicate files in a music database. It can find not only exactly the same audio files, but is robust even to differencies like different bitrates, slight pitch or tempo variations and can even recognise duplicates containing noise or applause at the beggining/end of one of the audio files.
 For the evaluation, it is using image hashing with combination of MrMsDTW (both or only of these techniques, depending on accuracy setting). It is built in a way so that it is simple to use for the end user, with four pre-defined accuracy settings, but various parameters can be set if there is need for some more fine-tuning.
 
