@@ -3,6 +3,10 @@ This project is a system designed for recognising duplicate files in a music dat
 For the evaluation, it is using image hashing with combination of MrMsDTW (both or only of these techniques, depending on accuracy setting). It is built in a way so that it is simple to use for the end user, with four pre-defined accuracy settings, but various parameters can be set if there is need for some more fine-tuning.
 
 
+------------------------------ DEPENDENCIES -------------------------------------
+Dependencies in requirements.txt file must be resolved and FFmpeg must be installed (see ffmpeg.org)
+
+
 --------- HOW TO USE (simple way with pre-defined accuracy settings) -----------
 The easiest way to run the system is to set the input parameters in "config.ini" file and run the "run.py" script. The individual parameters are described below:
 
